@@ -16,38 +16,41 @@
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<body>
+<body onload="playDice()">
+
   <h1 class="title weighty shine center">Dice Game!</h1>
 
     <div class="dice-block">
-        <id id="player-dice-face-1">
-        <div class="dot-box1"></div>
-        <div class="dot-box2"></div>
-        <div class="dot-box3"></div>
-        <div class="dot-box4"></div>
-        <div class="dot-box5"></div>
-        <div class="dot-box6"></div>
-        <div class="dot-box7"></div>
-        <div class="dot-box8"></div>
-        <div class="dot-box9"></div>
-    </id>
-        <div id="dice-container2">
-        <div class="dot-box1"></div>
-        <div class="dot-box2"></div>
-        <div class="dot-box3"></div>
-        <div class="dot-box4"></div>
-        <div class="dot-box5"></div>
-        <div class="dot-box6"></div>
-        <div class="dot-box7"></div>
-        <div class="dot-box8"></div>
-        <div class="dot-box9"></div>
-    </div>
-    </div>
-
-    <footer>
-      <script src="index.js" charset="utf-8"></script>
-    </footer>
-
+        <div class="player-block">
+            <div class="dice-title weighty shine">Player One</div>
+            <div id="player-dice-face-1">
+                <div class="dot-box1"></div>
+                <div class="dot-box2"></div>
+                <div class="dot-box3"></div>
+                <div class="dot-box4"></div>
+                <div class="dot-box5"></div>
+                <div class="dot-box6"></div>
+                <div class="dot-box7"></div>
+                <div class="dot-box8"></div>
+                <div class="dot-box9"></div>
+            </div>
+        </div>
+        <div class="player-block">
+            <div class="dice-title weighty shine">Player Two</div>
+            <div id="player-dice-face-2">
+            <div class="dot-box1"></div>
+            <div class="dot-box2"></div>
+            <div class="dot-box3"></div>
+            <div class="dot-box4"></div>
+            <div class="dot-box5"></div>
+            <div class="dot-box6"></div>
+            <div class="dot-box7"></div>
+            <div class="dot-box8"></div>
+            <div class="dot-box9"></div>
+        </div>
+       </div>
+    </div><!--diceblock-->
+    <div id="declare" class="weighty shine center"></div>
 
 
 
